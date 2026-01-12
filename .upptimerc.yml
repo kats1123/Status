@@ -4,7 +4,6 @@
 owner: kats1123
 repo: Status
 
-# This bypasses Cloudflare's "Bot Fight Mode" by pretending to be a real browser
 user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 sites:
@@ -18,15 +17,12 @@ sites:
     url: https://stremthru.jonakats.com
   - name: nas
     url: https://nas.jonakats.com
-  - name: proxy
-    url: https://proxy.jonakats.com
   - name: server
     url: https://server.jonakats.com
 
 status-website:
-  # Replace with your custom domain if you have one
   cname: status.jonakats.com
-  baseUrl: /Status
+  baseUrl: /
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.png
   name: "Jonakats Status"
   introTitle: "Jonakats Services Status"
