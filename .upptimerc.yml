@@ -1,5 +1,10 @@
+# ===============================
+# Upptime Configuration
+# ===============================
 owner: kats1123
 repo: Status
+
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 sites:
   - name: AIO Metadata
@@ -28,10 +33,10 @@ sites:
 
 status-website:
   cname: status.jonakats.com
-  name: "Jona Kats Status"
+  name: "Jona Kats"
+  introTitle: "Service Status"
+  introMessage: "Live uptime and latency for my self-hosted services."
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.png
-  introTitle: "Jona Kats Services Status"
-  introMessage: This page monitors the uptime of my private services.
   navbar:
     - title: Status
       href: /
