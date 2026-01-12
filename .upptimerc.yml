@@ -19,10 +19,6 @@ sites:
     url: https://comet.jonakats.com
     slug: comet
 
-  - name: StremThru
-    url: https://stremthru.jonakats.com
-    slug: stremthru
-
   - name: NAS
     url: https://nas.jonakats.com
     slug: nas
