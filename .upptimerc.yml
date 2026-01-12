@@ -1,28 +1,38 @@
+# ===============================
+# Upptime Configuration
+# ===============================
 owner: kats1123
 repo: Status
 
+# This bypasses Cloudflare's "Bot Fight Mode" by pretending to be a real browser
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
 sites:
-  - name: AIO Metadata
+  - name: aio-metadata
     url: https://aiometadata.jonakats.com
-
-  - name: AIO Streams
+  - name: aio-streams
     url: https://aiostreams.jonakats.com
-
-  - name: Comet
+  - name: comet
     url: https://comet.jonakats.com
-
-  - name: StremThru
+  - name: strem-thru
     url: https://stremthru.jonakats.com
-
-  - name: NAS
+  - name: nas
     url: https://nas.jonakats.com
-
-  - name: Proxy
+  - name: proxy
     url: https://proxy.jonakats.com
-
-  - name: Server
+  - name: server
     url: https://server.jonakats.com
 
 status-website:
+  # Replace with your custom domain if you have one
   cname: status.jonakats.com
-  name: JonaKats Status
+  baseUrl: /Status
+  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.png
+  name: "Jonakats Status"
+  introTitle: "Jonakats Services Status"
+  introMessage: This page monitors the uptime of my private services.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/kats1123/Status
