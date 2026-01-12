@@ -1,31 +1,36 @@
-# ===============================
-# Upptime Configuration
-# ===============================
 owner: kats1123
 repo: Status
 
-user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-
 sites:
-  - name: aio-metadata
+  - name: AIO Metadata
     url: https://aiometadata.jonakats.com
-  - name: aio-streams
+    slug: aio-metadata
+
+  - name: AIO Streams
     url: https://aiostreams.jonakats.com
-  - name: comet
+    slug: aio-streams
+
+  - name: Comet
     url: https://comet.jonakats.com
-  - name: strem-thru
+    slug: comet
+
+  - name: StremThru
     url: https://stremthru.jonakats.com
-  - name: nas
+    slug: stremthru
+
+  - name: NAS
     url: https://nas.jonakats.com
-  - name: server
+    slug: nas
+
+  - name: Server
     url: https://server.jonakats.com
+    slug: server
 
 status-website:
   cname: status.jonakats.com
-  baseUrl: /
+  name: "Jona Kats Status"
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.png
-  name: "Jonakats Status"
-  introTitle: "Jonakats Services Status"
+  introTitle: "Jona Kats Services Status"
   introMessage: This page monitors the uptime of my private services.
   navbar:
     - title: Status
