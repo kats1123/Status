@@ -19,9 +19,9 @@ sites:
     url: https://comet.jonakats.com
     slug: comet
 
-  - name: StremThru
+  - name: StremThru Torz/Proxy
     url: https://stremthru.jonakats.com
-    slug: stremthru
+    slug: stremthruTorz/Proxy
 
   - name: NAS
     url: https://nas.jonakats.com
