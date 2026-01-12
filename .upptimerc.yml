@@ -21,7 +21,7 @@ sites:
 
   - name: StremThru Torz/Proxy
     url: https://stremthru.jonakats.com
-    slug: stremthruTorz/Proxy
+    slug: stremthruTorz-Proxy
 
   - name: NAS
     url: https://nas.jonakats.com
