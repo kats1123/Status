@@ -5,17 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/homenetwork.jonakats.com.ico",
     "slug": "home-network-check",
     "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.11%",
+    "uptimeDay": "99.11%",
+    "uptimeWeek": "99.11%",
+    "uptimeMonth": "99.11%",
+    "uptimeYear": "99.11%",
     "time": 319,
     "timeDay": 319,
     "timeWeek": 319,
     "timeMonth": 319,
     "timeYear": 319,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-13": 2
+    }
   },
   {
     "name": "Server",
