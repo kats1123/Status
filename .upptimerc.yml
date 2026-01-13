@@ -1,18 +1,13 @@
 # ===============================
 # Upptime Configuration
 # ===============================
-env:
-  GH_PAT: ${{ secrets.GH_PAT || github.token }}
-  HOME_CANARY_URL: ${{ secrets.HOME_CANARY_URL }}  # This allows Upptime to "see" the value
-  SECRETS_CONTEXT: ${{ toJson(secrets) }}
-
 owner: kats1123
 repo: Status
 
 sites:
 
   - name: Home Network Check
-    url: $HOME_CANARY_URL
+    url: $Home_Canary_URL
     slug: home-network-check
 
   - name: Server
