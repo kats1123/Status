@@ -7,7 +7,7 @@ repo: Status
 sites:
 
   - name: Home Network Check
-    url: Test=$Home_Canary_URL
+    url: "$NETWORK_CHECK_URL"
     slug: home-network-check
 
   - name: Server
