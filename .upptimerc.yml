@@ -8,7 +8,7 @@ sites:
 
   - name: Home Network Check
     url: "https://homenetwork.jonakats.com:8443/health?token=$GH_PAT"
-    slug: home-network-check
+    slug: network-check
 
   - name: Server
     url: https://server.jonakats.com
@@ -18,7 +18,7 @@ sites:
     url: https://aiometadata.jonakats.com
     slug: aio-metadata
 
-  - name: AIO Streams -  Streams
+  - name: AIO Streams -  Stream Links
     url: https://aiostreams.jonakats.com
     slug: aio-streams
 
