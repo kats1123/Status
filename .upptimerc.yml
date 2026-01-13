@@ -33,7 +33,7 @@ status-website:
   cname: status.jonakats.com
   name: "Streaming Service Status"
   introTitle: "Service Status"
-  introMessage: "Live uptime and latency for my self-hosted services."
+  introMessage: "Live uptime and latency for my self-hosted streaming service."
   logoUrl: https://Public:0mn!Ph0t0s@webdav.jonakats.com/Images/omni.png
   navbar:
     - title: Status
