@@ -49,34 +49,35 @@ status-website:
     <script>
       (function () {
         const rewriteStatusBar = () => {
-          // Target the bold text inside the status bar
-          const statusBox = document.querySelector(".status-bar b") || document.querySelector(".status-bar");
+          // Target the article tags that Upptime uses for status messages
+          const statusArticle = document.querySelector("article.up, article.degraded, article.down");
           
-          if (statusBox) {
-            const text = statusBox.innerText.toLowerCase();
+          if (statusArticle && !statusArticle.getAttribute('data-customized')) {
+            const text = statusArticle.innerText.toLowerCase();
             
-            // Logic: If everything is green, it's likely an RD issue or a User issue.
-            if (text.includes("all systems are operational")) {
-              statusBox.innerHTML = '✅ Still not working? Check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="text-decoration: underline; color: inherit;">the website</a>.';
+            // If everything is operational
+            if (statusArticle.classList.contains('up')) {
+              statusArticle.innerHTML = '✅ Still not working? Check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="text-decoration: underline; color: #f25287; font-weight: bold;">the website</a>.';
             } 
-            
-            // Logic: If any outage is detected, provide the link as an extra resource.
-            else if (
-              text.includes("outage") || 
-              text.includes("degraded") || 
-              text.includes("major") || 
-              text.includes("partial")
-            ) {
-              statusBox.innerHTML = '❌ Issues detected. You can also check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="text-decoration: underline; color: inherit;">the website</a> for RD status.';
+            // If there is any form of outage
+            else {
+              statusArticle.innerHTML = '❌ Issues detected. You can also check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="text-decoration: underline; color: #f25287; font-weight: bold;">the website</a> for RD status.';
             }
+            
+            // Mark it so the observer doesn't create an infinite loop
+            statusArticle.setAttribute('data-customized', 'true');
           }
         };
 
-        // MutationObserver is the most reliable way to overwrite Svelte's dynamic UI
-        const observer = new MutationObserver(rewriteStatusBar);
+        // MutationObserver to handle Svelte's dynamic updates
+        const observer = new MutationObserver((mutations) => {
+          // If the status bar was replaced or updated by the app, re-run our rewrite
+          rewriteStatusBar();
+        });
+
         observer.observe(document.body, { childList: true, subtree: true });
 
-        // Initial check for the first load
+        // Initial run
         rewriteStatusBar();
       })();
     </script>
