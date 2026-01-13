@@ -37,47 +37,13 @@ status-website:
   cname: status.jonakats.com
   name: "Streaming Service Status"
   introTitle: "Service Status"
-  introMessage: "Live uptime and latency for my self-hosted streaming service."
+  introMessage: |
+    Live uptime and latency for my self-hosted streaming service.
+    <br><br>
+    **Still not working?** Check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="color: #f25287; text-decoration: underline; font-weight: bold;">the website</a>.
   logoUrl: https://Public:0mn!Ph0t0s@webdav.jonakats.com/Images/omni.png
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/kats1123/Status
-  
-  customBodyHtml: |
-    <script>
-      (function () {
-        const rewriteStatusBar = () => {
-          // Target the article tags that Upptime uses for status messages
-          const statusArticle = document.querySelector("article.up, article.degraded, article.down");
-          
-          if (statusArticle && !statusArticle.getAttribute('data-customized')) {
-            const text = statusArticle.innerText.toLowerCase();
-            
-            // If everything is operational
-            if (statusArticle.classList.contains('up')) {
-              statusArticle.innerHTML = '✅ Still not working? Check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="text-decoration: underline; color: #f25287; font-weight: bold;">the website</a>.';
-            } 
-            // If there is any form of outage
-            else {
-              statusArticle.innerHTML = '❌ Issues detected. You can also check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="text-decoration: underline; color: #f25287; font-weight: bold;">the website</a> for RD status.';
-            }
-            
-            // Mark it so the observer doesn't create an infinite loop
-            statusArticle.setAttribute('data-customized', 'true');
-          }
-        };
-
-        // MutationObserver to handle Svelte's dynamic updates
-        const observer = new MutationObserver((mutations) => {
-          // If the status bar was replaced or updated by the app, re-run our rewrite
-          rewriteStatusBar();
-        });
-
-        observer.observe(document.body, { childList: true, subtree: true });
-
-        // Initial run
-        rewriteStatusBar();
-      })();
-    </script>
