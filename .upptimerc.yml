@@ -18,7 +18,7 @@ sites:
     url: https://aiometadata.jonakats.com
     slug: aio-metadata
 
-  - name: AIO Streams -  Stream Options
+  - name: AIO Streams -  Streams
     url: https://aiostreams.jonakats.com
     slug: aio-streams
 
