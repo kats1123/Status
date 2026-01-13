@@ -4,19 +4,19 @@
     "url": "https://homenetwork.jonakats.com:8443/health?token=$GH_PAT",
     "icon": "https://icons.duckduckgo.com/ip3/homenetwork.jonakats.com.ico",
     "slug": "home-network-check",
-    "status": "down",
-    "uptime": "99.81%",
-    "uptimeDay": "99.81%",
-    "uptimeWeek": "99.81%",
-    "uptimeMonth": "99.81%",
-    "uptimeYear": "99.81%",
-    "time": 319,
-    "timeDay": 319,
-    "timeWeek": 319,
-    "timeMonth": 319,
-    "timeYear": 319,
+    "status": "up",
+    "uptime": "97.84%",
+    "uptimeDay": "97.84%",
+    "uptimeWeek": "97.84%",
+    "uptimeMonth": "97.84%",
+    "uptimeYear": "97.84%",
+    "time": 322,
+    "timeDay": 322,
+    "timeWeek": 322,
+    "timeMonth": 322,
+    "timeYear": 322,
     "dailyMinutesDown": {
-      "2026-01-13": 0
+      "2026-01-13": 2
     }
   },
   {
