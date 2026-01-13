@@ -8,7 +8,7 @@ sites:
 
   - name: Home Network Check
     url: "$NETWORK_CHECK_URL"
-    slug: home-network-check
+    slug: network-check
 
   - name: Server
     url: $SERVER_URL
@@ -18,7 +18,7 @@ sites:
     url: $AIOMETADATA_URL
     slug: aio-metadata
 
-  - name: AIO Streams -  Streams
+  - name: AIO Streams -  Stream Links
     url: $AIOSTREAMS_URL
     slug: aio-streams
 
