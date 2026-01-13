@@ -4,6 +4,10 @@
 owner: kats1123
 repo: Status
 
+# .upptimerc.yml
+workflowSchedule:
+  uptime: "*/5 * * * *" 
+
 sites:
   - name: Home Network
     url: "https://homenetwork.jonakats.com:8443/health?token=$GH_PAT"
