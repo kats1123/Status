@@ -1,6 +1,11 @@
 # ===============================
 # Upptime Configuration
 # ===============================
+env:
+  GH_PAT: ${{ secrets.GH_PAT || github.token }}
+  HOME_CANARY_URL: ${{ secrets.HOME_CANARY_URL }}  # This allows Upptime to "see" the value
+  SECRETS_CONTEXT: ${{ toJson(secrets) }}
+
 owner: kats1123
 repo: Status
 
