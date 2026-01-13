@@ -25,7 +25,7 @@ sites:
     url: $AIOSTREAMS_URL
     slug: aio-streams
 
-  - name: Comet 
+  - name: Comet
     url: $COMET_URL
     slug: comet
 
