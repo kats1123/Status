@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> <base href=/ > <link href=manifest.json rel=manifest crossorigin=use-credentials> <script>__SAPPER__={baseUrl:"",preloaded:[void 0]};if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js');(function(){try{eval("async function x(){}");var main="/client/client.261ef793.js"}catch(e){main="/client/legacy/client.001a56f0.js"};var s=document.createElement("script");try{new Function("if(0)import('')")();s.src=main;s.type="module";s.crossOrigin="use-credentials";}catch(e){s.src="/client/shimport@2.0.5.js";s.setAttribute("data-main",main);}document.head.appendChild(s);}());</script> <link href=client/client-31a52aa5.css rel=stylesheet><link href=client/createOctokit-a85f76c7.css rel=stylesheet><link href=client/index-b0b6455a.css rel=stylesheet> <script>// If `prefers-color-scheme` is not supported, fall back to light mode.
+<!DOCTYPE html> <html lang=en> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1" name=viewport> <meta content=#333333 name=theme-color> <base href=/ > <link href=manifest.json rel=manifest crossorigin=use-credentials> <script>__SAPPER__={baseUrl:"",preloaded:[void 0]};if('serviceWorker' in navigator)navigator.serviceWorker.register('/service-worker.js');(function(){try{eval("async function x(){}");var main="/client/client.6f67f16e.js"}catch(e){main="/client/legacy/client.5e0dcb31.js"};var s=document.createElement("script");try{new Function("if(0)import('')")();s.src=main;s.type="module";s.crossOrigin="use-credentials";}catch(e){s.src="/client/shimport@2.0.5.js";s.setAttribute("data-main",main);}document.head.appendChild(s);}());</script> <link href=client/client-31a52aa5.css rel=stylesheet><link href=client/createOctokit-a85f76c7.css rel=stylesheet><link href=client/index-b0b6455a.css rel=stylesheet> <script>// If `prefers-color-scheme` is not supported, fall back to light mode.
       // In this case, light.css will be downloaded with `highest` priority.
       if (typeof window !== "undefined" && typeof document !== "undefined" && "matchMedia" in window && window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
         document.documentElement.style.display = 'none';
@@ -6,55 +6,7 @@
           'beforeend',
           '<link rel="stylesheet" href={`${config.path}/themes/light.css`} onload="document.documentElement.style.display = \'\'">',
         );
-      } </script> <link href=https://status.jonakats.com/themes/light.css rel=stylesheet media=(prefers-color-scheme:light)> <link href=https://status.jonakats.com/themes/dark.css rel=stylesheet media=(prefers-color-scheme:dark)><link href=https://status.jonakats.com/global.css rel=stylesheet><link href=https://raw.githubusercontent.com/upptime/upptime/master/assets/upptime-icon.svg rel=icon type=image/svg><link href=/logo-192.png rel=icon type=image/png> <link href=/client/client.261ef793.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/client-31a52aa5.css rel=preload as=style><link href=/client/index.6f2071c1.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit.6042257b.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/inject_styles.803b7e80.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit-a85f76c7.css rel=preload as=style><link href=/client/index-b0b6455a.css rel=preload as=style></head> <body> <div id=sapper> <script> (function () {
-    const injectRD = () => {
-      // Prevent duplicates: search for our specific container ID
-      if (document.getElementById("rd-status-container")) return;
-
-      const wrap = document.createElement("div");
-      wrap.id = "rd-status-container";
-      wrap.style.cssText = "margin: 2rem 0; padding: 1rem; border-top: 1px solid #eee; width: 100%;";
-
-      wrap.innerHTML = `
-        <h2 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">Real-Debrid Status (External)</h2>
-        <p style="margin-bottom: 1rem; font-size: 0.9rem; opacity: 0.8;">
-          Live status provided by Debrid Media Manager. If not loading, 
-          <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="text-decoration: underline;">click here</a>.
-        </p>
-        <iframe
-          src="https://debridmediamanager.com/is-real-debrid-down-or-just-me"
-          style="width: 100%; height: 1000px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; background: white;"
-          loading="lazy"
-        ></iframe>
-      `;
-
-      // Find the footer to place the iframe right above it
-      const footer = document.querySelector("footer") || document.querySelector(".footer");
-      const mainContainer = document.querySelector("main") || document.body;
-
-      if (footer) {
-        footer.parentNode.insertBefore(wrap, footer);
-      } else {
-        mainContainer.appendChild(wrap);
-      }
-    };
-
-    // Initial run
-    if (document.readyState === "complete") {
-      injectRD();
-    } else {
-      window.addEventListener("load", injectRD);
-    }
-
-    // MutationObserver handles the "Single Page App" refresh issue
-    const observer = new MutationObserver(() => {
-      if (!document.getElementById("rd-status-container")) {
-        injectRD();
-      }
-    });
-
-    observer.observe(document.body, { childList: true, subtree: true });
-  })(); </script> <nav class=svelte-a08hsz><div class="svelte-a08hsz container"><div><a href=https://status.jonakats.com class="svelte-a08hsz logo"><img alt="" class=svelte-a08hsz src=https://Public:0mn!Ph0t0s@webdav.jonakats.com/Images/omni.png> <div>Streaming Service Status</div></a></div> <ul class=svelte-a08hsz><li><a href=/ class=svelte-a08hsz target=_self>Status</a> <li><a href=https://github.com/kats1123/Status class=svelte-a08hsz target=_self>GitHub</a> </li> </ul></div> </nav> <main class=container></main> <footer class=svelte-jbr799><p>This page is <a href=https://github.com/kats1123/Status>open source</a>, powered by <a href=https://upptime.js.org>Upptime</a></p> </footer></div> <script> try {
+      } </script> <link href=https://status.jonakats.com/themes/light.css rel=stylesheet media=(prefers-color-scheme:light)> <link href=https://status.jonakats.com/themes/dark.css rel=stylesheet media=(prefers-color-scheme:dark)><link href=https://status.jonakats.com/global.css rel=stylesheet><link href=https://raw.githubusercontent.com/upptime/upptime/master/assets/upptime-icon.svg rel=icon type=image/svg><link href=/logo-192.png rel=icon type=image/png> <link href=/client/client.6f67f16e.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/client-31a52aa5.css rel=preload as=style><link href=/client/index.d57201bd.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit.3b77c339.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/inject_styles.803b7e80.js rel=modulepreload as=script crossorigin=use-credentials><link href=/client/createOctokit-a85f76c7.css rel=preload as=style><link href=/client/index-b0b6455a.css rel=preload as=style></head> <body> <div id=sapper> <nav class=svelte-a08hsz><div class="svelte-a08hsz container"><div><a href=https://status.jonakats.com class="svelte-a08hsz logo"><img alt="" class=svelte-a08hsz src=https://Public:0mn!Ph0t0s@webdav.jonakats.com/Images/omni.png> <div>Streaming Service Status</div></a></div> <ul class=svelte-a08hsz><li><a href=/ class=svelte-a08hsz target=_self>Status</a> <li><a href=https://github.com/kats1123/Status class=svelte-a08hsz target=_self>GitHub</a> </li> </ul></div> </nav> <main class=container></main> <footer class=svelte-jbr799><p>This page is <a href=https://github.com/kats1123/Status>open source</a>, powered by <a href=https://upptime.js.org>Upptime</a></p> </footer></div> <script> try {
         if (typeof window !== "undefined" && window.navigator && navigator.serviceWorker) {
           navigator.serviceWorker.getRegistrations().then(function (registrations) {
             for (let registration of registrations) {
