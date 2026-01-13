@@ -7,7 +7,7 @@ repo: Status
 sites:
 
   - name: Home Network Check
-    url: Test=$Home_Canary_URL
+    url: "https://homenetwork.jonakats.com:8443/health?token=$GP_PAT"
     slug: home-network-check
 
   - name: Server
