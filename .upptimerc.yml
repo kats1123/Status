@@ -45,17 +45,18 @@ status-website:
     <script>
       (function () {
         const injectRD = () => {
+          // Prevent duplicates: search for our specific container ID
           if (document.getElementById("rd-status-container")) return;
 
           const wrap = document.createElement("div");
           wrap.id = "rd-status-container";
-          wrap.style.cssText = "margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(0,0,0,0.1); width: 100%; font-family: sans-serif;";
+          wrap.style.cssText = "margin: 2rem 0; padding: 1rem; border-top: 1px solid #eee; width: 100%;";
 
           wrap.innerHTML = `
-            <h2 style="margin: 0 0 1rem 0; font-size: 1.5rem; font-weight: bold;">Real-Debrid Status (External)</h2>
+            <h2 style="margin-bottom: 1rem; font-size: 1.5rem; font-weight: bold;">Real-Debrid Status (External)</h2>
             <p style="margin-bottom: 1rem; font-size: 0.9rem; opacity: 0.8;">
               Live status provided by Debrid Media Manager. If not loading, 
-              <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="color: #3db1f1; text-decoration: underline;">click here</a>.
+              <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="text-decoration: underline;">click here</a>.
             </p>
             <iframe
               src="https://debridmediamanager.com/is-real-debrid-down-or-just-me"
@@ -64,6 +65,7 @@ status-website:
             ></iframe>
           `;
 
+          // Find the footer to place the iframe right above it
           const footer = document.querySelector("footer") || document.querySelector(".footer");
           const mainContainer = document.querySelector("main") || document.body;
 
@@ -74,12 +76,14 @@ status-website:
           }
         };
 
+        // Initial run
         if (document.readyState === "complete") {
           injectRD();
         } else {
           window.addEventListener("load", injectRD);
         }
 
+        // MutationObserver handles the "Single Page App" refresh issue
         const observer = new MutationObserver(() => {
           if (!document.getElementById("rd-status-container")) {
             injectRD();
