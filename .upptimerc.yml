@@ -8,7 +8,7 @@ sites:
 
   - name: Home Network Check
     url: "https://homenetwork.jonakats.com:8443/health?token=$GH_PAT"
-    slug: network-check
+    slug: home-network-check
 
   - name: Server 
     url: https://server.jonakats.com
@@ -46,8 +46,8 @@ status-website:
     - title: GitHub
       href: https://github.com/kats1123/Status
 
-  customBodyHtml: |
-    <div style="margin: 1rem 0; padding: 1rem; border: 1px solid rgba(0,0,0,.1); border-radius: 12px;">
+  customFootHtml: |
+    <div style="margin: 1.5rem 0 0; padding: 1rem; border: 1px solid rgba(0,0,0,.1); border-radius: 12px;">
       <h2 style="margin: 0 0 .5rem 0;">Real-Debrid status (external)</h2>
       <p style="margin: 0 0 .75rem 0;">
         If the embed doesn’t load, open it here:
@@ -58,7 +58,7 @@ status-website:
 
       <iframe
         src="https://debridmediamanager.com/is-real-debrid-down-or-just-me"
-        style="width: 100%; height: 520px; border: 0; border-radius: 10px;"
+        style="width: 100%; height: 900px; border: 0; border-radius: 10px;"
         loading="lazy"
         referrerpolicy="no-referrer"
       ></iframe>
