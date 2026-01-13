@@ -31,6 +31,10 @@ sites:
     url: https://server.jonakats.com
     slug: server
 
+  - name: Home Network Check
+    url: $HOME_CANARY_URL
+    slug: home-network-check
+
 status-website:
   cname: status.jonakats.com
   name: "Jona Kats"
