@@ -1,8 +1,6 @@
 # ===============================
 # Upptime Configuration
 # ===============================
-workflowSecrets: true
-
 owner: kats1123
 repo: Status
 
