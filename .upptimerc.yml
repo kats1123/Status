@@ -7,11 +7,20 @@ repo: Status
 user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 sites:
-  - name: AIO Metadata
+
+  - name: Home Network Check
+    url: $HOME_CANARY_URL
+    slug: home-network-check
+
+  - name: Server
+    url: https://server.jonakats.com
+    slug: server
+
+  - name: AIO Metadata - Search
     url: https://aiometadata.jonakats.com
     slug: aio-metadata
 
-  - name: AIO Streams
+  - name: AIO Streams -  Stream Options
     url: https://aiostreams.jonakats.com
     slug: aio-streams
 
@@ -26,14 +35,6 @@ sites:
   - name: NAS
     url: https://nas.jonakats.com
     slug: nas
-
-  - name: Server
-    url: https://server.jonakats.com
-    slug: server
-
-  - name: Home Network Check
-    url: $HOME_CANARY_URL
-    slug: home-network-check
 
 status-website:
   cname: status.jonakats.com
