@@ -5,7 +5,7 @@ owner: kats1123
 repo: Status
 
 sites:
-  - name: Home Network Check
+  - name: Home Network
     url: "https://homenetwork.jonakats.com:8443/health?token=$GH_PAT"
     slug: home-network-check
 
@@ -34,7 +34,7 @@ status-website:
   name: "Streaming Service Status"
   introTitle: "Service Status"
   introMessage: "Live uptime and latency for my self-hosted services."
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.png
+  logoUrl: https://Public:0mn!Ph0t0s@webdav.jonakats.com/Images/omni.png
   navbar:
     - title: Status
       href: /
@@ -52,12 +52,7 @@ status-website:
           wrap.style.cssText = "margin: 2rem 0; padding: 1.5rem; border-top: 1px solid rgba(0,0,0,0.1); width: 100%; font-family: sans-serif;";
 
           wrap.innerHTML = `
-            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 1rem;">
-              <svg width="32" height="32" viewBox="0 0 48 32" fill="#3db1f1" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17.5833 0C20.213 0 22.6454 1.38603 23.9734 3.64128L34.1532 20.9286C35.4929 23.2036 35.5051 26.0169 34.1854 28.3034C32.8657 30.5898 30.4158 32 27.7631 32H7.4035C4.75083 32 2.30091 30.5898 0.981222 28.3034C-0.338453 26.0169 -0.326234 23.2036 1.0134 20.9286L11.1932 3.64128L11.2564 3.53616C12.5974 1.34304 14.9947 0 17.5833 0ZM28.4876 0.931034C30.253 -0.0933672 32.52 0.498228 33.551 2.25239L47.4942 25.9765C48.5252 27.7307 47.9298 29.9833 46.1644 31.0077C44.399 32.0321 42.132 31.4405 41.101 29.6863L27.1577 5.96216C26.1268 4.20799 26.7222 1.95544 28.4876 0.931034ZM7.4035 24.6437H27.7631L17.5833 7.35632L7.4035 24.6437Z" />
-              </svg>
-              <h2 style="margin: 0; font-size: 1.5rem; font-weight: bold;">Real-Debrid Status (External)</h2>
-            </div>
+            <h2 style="margin: 0 0 1rem 0; font-size: 1.5rem; font-weight: bold;">Real-Debrid Status (External)</h2>
             <p style="margin-bottom: 1rem; font-size: 0.9rem; opacity: 0.8;">
               Live status provided by Debrid Media Manager. If not loading, 
               <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="color: #3db1f1; text-decoration: underline;">click here</a>.
