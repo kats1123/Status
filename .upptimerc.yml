@@ -7,7 +7,7 @@ repo: Status
 sites:
 
   - name: Home Network Check
-    url: "https://homenetwork.jonakats.com:8443/health?token=$GP_PAT"
+    url: "https://homenetwork.jonakats.com:8443/health?token=$GH_PAT"
     slug: home-network-check
 
   - name: Server
