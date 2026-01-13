@@ -4,6 +4,7 @@
 owner: kats1123
 repo: Status
 
+skipDeleteIssues: true
 # .upptimerc.yml
 workflowSchedule:
   uptime: "*/5 * * * *" 
