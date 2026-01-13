@@ -36,7 +36,7 @@ sites:
 
 status-website:
   cname: status.jonakats.com
-  name: "Jona Kats"
+  name: "Welcome to my Status Page"
   introTitle: "Service Status"
   introMessage: "Live uptime and latency for my self-hosted services."
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.png
