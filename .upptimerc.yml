@@ -18,7 +18,7 @@ sites:
     url: $AIOMETADATA_URL
     slug: aio-metadata
 
-  - name: AIO Streams -  Stream Options
+  - name: AIO Streams -  Streams
     url: $AIOSTREAMS_URL
     slug: aio-streams
 
