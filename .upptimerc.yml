@@ -9,7 +9,7 @@ workflowSchedule:
   uptime: "*/5 * * * *" 
 
 sites:
-  - name: Home Network
+  - name: Network
     url: "$NETWORK_CHECK_URL"
     slug: home-network-check
 
@@ -17,11 +17,11 @@ sites:
     url: $SERVER_URL
     slug: server
 
-  - name: AIO Metadata - Does Search Work?
+  - name: AIO Metadata - Search
     url: $AIOMETADATA_URL
     slug: aio-metadata
 
-  - name: AIO Streams - Do Streams have Links?
+  - name: AIO Streams - Streams Links
     url: $AIOSTREAMS_URL
     slug: aio-streams
 
