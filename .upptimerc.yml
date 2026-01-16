@@ -9,7 +9,7 @@ workflowSchedule:
   uptime: "*/5 * * * *" 
 
 sites:
-  - name: Network
+  - name: Home Network Check
     url: "https://homenetwork.jonakats.com:8443/health?token=$GH_PAT"
     slug: home-network-check
 
@@ -17,11 +17,11 @@ sites:
     url: https://server.jonakats.com
     slug: server
 
-  - name: AIO Metadata - Search
+  - name: AIO Metadata
     url: https://aiometadata.jonakats.com
     slug: aio-metadata
 
-  - name: AIO Streams - Streams Links
+  - name: AIO Streams
     url: https://aiostreams.jonakats.com
     slug: aio-streams
 
