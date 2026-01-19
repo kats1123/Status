@@ -25,11 +25,11 @@ sites:
     url: https://aiostreams.jonakats.com
     slug: aio-streams
 
-  - name: Comet
+  - name: Comet (🏠)
     url: https://comet.jonakats.com
     slug: comet
 
-  - name: StremThru Torz/Proxy
+  - name: StremThru Torz/Proxy (🧲)
     url: https://stremthru.jonakats.com
     slug: strem-thru-torz-proxy
 
