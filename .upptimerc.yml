@@ -25,11 +25,11 @@ sites:
     url: $AIOSTREAMS_URL
     slug: aio-streams
 
-  - name: Comet
+  - name: Comet (🏠)
     url: $COMET_URL
     slug: comet
 
-  - name: StremThru Torz/Proxy
+  - name: StremThru Torz/Proxy (🧲)
     url: https://stremthru.jonakats.com
     slug: strem-thru-torz-proxy
 
