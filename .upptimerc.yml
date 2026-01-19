@@ -40,7 +40,7 @@ status-website:
   introMessage: |
     Live uptime and latency for my mostly self-hosted streaming service backend.
     <br><br>
-    If all systems are operational, and it is still not working, please check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="color: #f25287; text-decoration: underline; font-weight: bold;">Real Debrid and Torrentio status here</a> and <a href="https://status.debridio.com/" target="_blank" style="color: #f25287; text-decoration: underline; font-weight: bold;">Debridio status here</a>.
+    If all systems are operational, and it is still not working, please check <a href="https://debridmediamanager.com/is-real-debrid-down-or-just-me" target="_blank" style="color: #f25287; text-decoration: underline; font-weight: bold;">Real Debrid and Torrentio (☁️) status here</a> and <a href="https://status.debridio.com/" target="_blank" style="color: #f25287; text-decoration: underline; font-weight: bold;">Debridio (🌐) status here</a>.
   logoUrl: https://Public:0mn!Ph0t0s@webdav.jonakats.com/Images/omni.png
   navbar:
     - title: Status
