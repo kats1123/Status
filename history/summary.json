@@ -24,19 +24,19 @@
     "url": "https://server.jonakats.com",
     "icon": "https://icons.duckduckgo.com/ip3/server.jonakats.com.ico",
     "slug": "server",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.72%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
-    "time": 805,
-    "timeDay": 10036,
-    "timeWeek": 1563,
-    "timeMonth": 805,
-    "timeYear": 805,
+    "status": "up",
+    "uptime": "99.67%",
+    "uptimeDay": "97.24%",
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "99.67%",
+    "uptimeYear": "99.67%",
+    "time": 802,
+    "timeDay": 6874,
+    "timeWeek": 1512,
+    "timeMonth": 802,
+    "timeYear": 802,
     "dailyMinutesDown": {
-      "2026-01-21": 4
+      "2026-01-21": 40
     }
   },
   {
@@ -44,19 +44,19 @@
     "url": "https://aiometadata.jonakats.com",
     "icon": "https://icons.duckduckgo.com/ip3/aiometadata.jonakats.com.ico",
     "slug": "aio-metadata",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "99.79%",
-    "uptimeWeek": "99.97%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
-    "time": 742,
-    "timeDay": 10064,
-    "timeWeek": 1521,
-    "timeMonth": 742,
-    "timeYear": 742,
+    "status": "up",
+    "uptime": "99.68%",
+    "uptimeDay": "97.30%",
+    "uptimeWeek": "99.61%",
+    "uptimeMonth": "99.68%",
+    "uptimeYear": "99.68%",
+    "time": 738,
+    "timeDay": 6854,
+    "timeWeek": 1466,
+    "timeMonth": 738,
+    "timeYear": 738,
     "dailyMinutesDown": {
-      "2026-01-21": 3
+      "2026-01-21": 39
     }
   },
   {
@@ -64,19 +64,19 @@
     "url": "https://aiostreams.jonakats.com",
     "icon": "https://icons.duckduckgo.com/ip3/aiostreams.jonakats.com.ico",
     "slug": "aio-streams",
-    "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.86%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 696,
-    "timeDay": 9939,
-    "timeWeek": 1498,
-    "timeMonth": 696,
-    "timeYear": 696,
+    "status": "up",
+    "uptime": "99.68%",
+    "uptimeDay": "97.37%",
+    "uptimeWeek": "99.62%",
+    "uptimeMonth": "99.68%",
+    "uptimeYear": "99.68%",
+    "time": 693,
+    "timeDay": 6788,
+    "timeWeek": 1447,
+    "timeMonth": 693,
+    "timeYear": 693,
     "dailyMinutesDown": {
-      "2026-01-21": 2
+      "2026-01-21": 38
     }
   },
   {
@@ -84,19 +84,19 @@
     "url": "https://comet.jonakats.com",
     "icon": "https://icons.duckduckgo.com/ip3/comet.jonakats.com.ico",
     "slug": "comet",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 702,
-    "timeDay": 9949,
-    "timeWeek": 1495,
-    "timeMonth": 702,
-    "timeYear": 702,
+    "status": "up",
+    "uptime": "99.69%",
+    "uptimeDay": "97.44%",
+    "uptimeWeek": "99.63%",
+    "uptimeMonth": "99.69%",
+    "uptimeYear": "99.69%",
+    "time": 701,
+    "timeDay": 6847,
+    "timeWeek": 1453,
+    "timeMonth": 701,
+    "timeYear": 701,
     "dailyMinutesDown": {
-      "2026-01-21": 1
+      "2026-01-21": 37
     }
   },
   {
@@ -105,18 +105,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/stremthru.jonakats.com.ico",
     "slug": "strem-thru-torz-proxy",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.69%",
+    "uptimeDay": "97.43%",
+    "uptimeWeek": "99.63%",
+    "uptimeMonth": "99.69%",
+    "uptimeYear": "99.69%",
     "time": 682,
     "timeDay": 9978,
     "timeWeek": 1368,
     "timeMonth": 682,
     "timeYear": 682,
     "dailyMinutesDown": {
-      "2026-01-21": 0
+      "2026-01-21": 37
     }
   }
 ]
