@@ -1,7 +1,7 @@
 url: https://homenetwork.jonakats.com:8443/health?token=$GH_PAT
 status: up
 code: 200
-responseTime: 346
-lastUpdated: 2026-01-27T23:26:13.242Z
+responseTime: 309
+lastUpdated: 2026-01-28T23:29:36.207Z
 startTime: 2026-01-13T04:07:22.693Z
 generator: Upptime <https://github.com/upptime/upptime>
