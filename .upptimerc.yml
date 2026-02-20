@@ -13,8 +13,8 @@ sites:
     url: "$NETWORK_CHECK_URL"
     slug: home-network-check
 
-  - name: Server 
-    url: $SERVER_URL
+  - name: Server
+    url: "$SERVER_URL"
     slug: server
 
   - name: AIOMetadata (Search)
