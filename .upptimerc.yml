@@ -30,7 +30,7 @@ sites:
     slug: comet
 
   - name: StremThru Torz/Proxy (🧲)
-    url: https://stremthru.jonakats.com
+    url: $STREMTHRU_URL
     slug: strem-thru-torz-proxy
 
 status-website:
