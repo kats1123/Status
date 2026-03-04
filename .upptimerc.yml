@@ -46,3 +46,6 @@ status-website:
     - title: Status
       href: /
 
+i18n:
+  footer: " "
+
