@@ -18,19 +18,19 @@ sites:
     slug: server
 
   - name: AIOMetadata (Search)
-    url: $AIOMETADATA_URL
+    url: "$AIOMETADATA_URL"
     slug: aio-metadata
 
   - name: AIOStreams (Links)
-    url: $AIOSTREAMS_URL
+    url: "$AIOSTREAMS_URL"
     slug: aio-streams
 
   - name: Comet (🏠)
-    url: $COMET_URL
+    url: "$COMET_URL"
     slug: comet
 
   - name: StremThru Torz/Proxy (🧲)
-    url: $STREMTHRU_URL
+    url: "$STREMTHRU_URL"
     slug: strem-thru-torz-proxy
 
 status-website:
@@ -45,6 +45,4 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/kats1123/Status
 
