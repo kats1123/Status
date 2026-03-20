@@ -1,7 +1,7 @@
 url: $AIOSTREAMS_URL
-status: down
-code: 521
-responseTime: 140
-lastUpdated: 2026-03-20T17:01:14.790Z
+status: up
+code: 200
+responseTime: 500
+lastUpdated: 2026-03-20T17:03:32.272Z
 startTime: 2026-01-12T21:47:23.916Z
 generator: Upptime <https://github.com/upptime/upptime>
