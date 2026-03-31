@@ -1,7 +1,7 @@
 url: $NETWORK_CHECK_URL
 status: up
 code: 200
-responseTime: 359
-lastUpdated: 2026-03-30T23:39:06.444Z
+responseTime: 428
+lastUpdated: 2026-03-31T23:37:27.019Z
 startTime: 2026-01-13T04:07:22.693Z
 generator: Upptime <https://github.com/upptime/upptime>
