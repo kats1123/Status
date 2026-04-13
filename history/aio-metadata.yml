@@ -1,7 +1,7 @@
 url: $AIOMETADATA_URL
-status: down
-code: 521
-responseTime: 177
-lastUpdated: 2026-04-13T00:05:36.987Z
+status: up
+code: 200
+responseTime: 466
+lastUpdated: 2026-04-13T03:51:31.866Z
 startTime: 2026-01-12T21:47:22.315Z
 generator: Upptime <https://github.com/upptime/upptime>
